@@ -5,7 +5,7 @@ class CategoriesBuilder extends StatelessWidget {
   CategoriesBuilder({super.key});
 
   final List category = [
-    'assets/ayurvedha.jpeg',
+  
     'assets/ayurvedha.jpeg',
     'assets/siddha.jpeg',
     'assets/unani.jpeg',
