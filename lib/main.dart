@@ -10,8 +10,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: NavBarPage(),
+    return MaterialApp(
+      home: const NavBarPage(),
+      theme: ThemeData(
+        fontFamily: 'Araboto',
+      ),
+      themeMode: ThemeMode.light,
       debugShowCheckedModeBanner: false,
     );
   }

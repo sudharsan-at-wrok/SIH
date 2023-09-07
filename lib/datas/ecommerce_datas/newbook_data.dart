@@ -2,8 +2,8 @@ const List newBooks = [
   {
     "bookName": "Siddha Medicine",
     "imgUrl":
-        "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=2000",
-    // "https://m.media-amazon.com/images/I/51OlvbLF0hL._AC_UF1000,1000_QL80_.jpg",
+        // "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=2000",
+        "https://m.media-amazon.com/images/I/51OlvbLF0hL._AC_UF1000,1000_QL80_.jpg",
     "author": "Dr Paul Joesph Thottam",
     "price": "500",
     "rating": 5.0
@@ -11,8 +11,8 @@ const List newBooks = [
   {
     "bookName": "The Hand Book of Indian Medicine",
     "imgUrl":
-        "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=2000",
-    // "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDicUS-EhyqLuDGMcctDntNWsLx8CeTcvjlu3Cjp0roVTgrQDO1JlhYw_lJFYX6f3HlnU&usqp=CAU",
+        // "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=2000",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDicUS-EhyqLuDGMcctDntNWsLx8CeTcvjlu3Cjp0roVTgrQDO1JlhYw_lJFYX6f3HlnU&usqp=CAU",
     "author": "T.G.Ramamurti Iyer",
     "price": "100",
     "rating": 4.0
@@ -37,9 +37,9 @@ const List newBooks = [
   },
   {
     "bookName": "Aiapget",
-    "imgUrl":
-        "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=2000",
-    // "imgUrl": "https://m.media-amazon.com/images/I/41SYJJeh2CL.jpg",
+    // "imgUrl":
+    // "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=2000",
+    "imgUrl": "https://m.media-amazon.com/images/I/41SYJJeh2CL.jpg",
     "author": "Dr Hidayath Khan Mehdi",
     "price": "400",
     "rating": 3.0
