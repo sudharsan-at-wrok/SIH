@@ -30,7 +30,7 @@ class ECommercePage extends StatelessWidget {
                         style: TextStyle(
                             color: headingColor,
                             fontSize: 25,
-                            fontWeight: FontWeight.w400),
+                            fontWeight: FontWeight.w600),
                       ),
                     ),
                   ],
@@ -102,14 +102,14 @@ class ECommercePage extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 10),
-                Row(
+                const Row(
                   children: [
                     Text(
                       "Popular",
                       style: TextStyle(
                           color: headingColor,
                           fontSize: 25,
-                          fontWeight: FontWeight.w200),
+                          fontWeight: FontWeight.w600),
                     ),
                   ],
                 ),

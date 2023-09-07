@@ -48,12 +48,15 @@ class PopularListWidget extends StatelessWidget {
                         fontSize: 20,
                         fontWeight: FontWeight.w400),
                   ),
-                  Text(
-                    authorName,
-                    style: const TextStyle(
-                        color: subheadingColor,
-                        fontSize: 15,
-                        fontWeight: FontWeight.w200),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 5),
+                    child: Text(
+                      'by $authorName',
+                      style: const TextStyle(
+                          color: subheadingColor,
+                          fontSize: 15,
+                          fontWeight: FontWeight.w400),
+                    ),
                   ),
                   Row(
                     children: [
