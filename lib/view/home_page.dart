@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:medbook/view/categories_bilder.dart';
 import 'package:medbook/view/trending_builder.dart';
 
-import 'categories.dart';
-
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
