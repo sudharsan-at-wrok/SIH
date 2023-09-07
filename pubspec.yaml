@@ -35,8 +35,12 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+<<<<<<< HEAD
   google_nav_bar: ^5.0.6
   material_design_icons_flutter: ^7.0.7296
+=======
+  flutter_colorpicker: ^1.0.3
+>>>>>>> bafb19b8f5bd22dc6cdd893acbf31cae7b948c66
 
 dev_dependencies:
   flutter_test:
@@ -75,12 +79,29 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
+<<<<<<< HEAD
+  fonts:
+    - family: Araboto
+      fonts:
+        - asset: assets\fonts\Araboto Black 400.ttf
+        - asset: assets\fonts\Araboto Bold 400.ttf
+        - asset: assets\fonts\Araboto Light 400.ttf
+        - asset: assets\fonts\Araboto Medium 400.ttf
+        - asset: assets\fonts\Araboto Normal 400.ttf
+        - asset: assets\fonts\Araboto Thin 400.ttf
+          weight: 400
+=======
+  
+  fonts:
+    - family: Publica Sans Round
+      fonts:
+        - asset: assets\Publica Sans Round\PublicaSansRound-Bd.otf
+        - asset: assets\Publica Sans Round\PublicaSansRound-BdIt.otf
+        - asset: assets\Publica Sans Round\PublicaSansRound-Lt.otf
+        - asset: assets\Publica Sans Round\PublicaSansRound-LtIt.otf
+        - asset: assets\Publica Sans Round\PublicaSansRound-Md.otf
+        - asset: assets\Publica Sans Round\PublicaSansRound-Rg.otf
+>>>>>>> bafb19b8f5bd22dc6cdd893acbf31cae7b948c66
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf

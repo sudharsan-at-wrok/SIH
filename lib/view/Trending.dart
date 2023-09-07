@@ -10,11 +10,11 @@ class Trending extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 10),
       child: Container(
-        height: 190,
-        width: 300,
+        height: 220,
+        width: 330,
         decoration: const BoxDecoration(
-            color: Colors.white,
-            borderRadius: BorderRadius.all(Radius.circular(10))),
+            color: Colors.black,
+            borderRadius: BorderRadius.all(Radius.circular(18))),
       ),
     );
   }

@@ -4,18 +4,38 @@ class Categories extends StatelessWidget {
   const Categories({
     super.key,
     required this.images,
+    required this.categoryname,
+    required this.colors,
   });
-  final String images;
-
+  final String images, categoryname;
+  final Color colors;
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(8.0),
+      padding: const EdgeInsets.all(12.0),
       child: Container(
-        height: 150,
+        height: 120,
         width: 150,
-        color: Colors.white,
-        child: Image.asset(images),
+        decoration: BoxDecoration(
+            color: colors,
+            borderRadius: const BorderRadius.all(Radius.circular(22))),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            IconButton(
+              onPressed: () {},
+              icon: Image.asset(images),
+              iconSize: 90,
+            ),
+            const SizedBox(
+              height: 10,
+            ),
+            Text(
+              categoryname,
+              style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            ),
+          ],
+        ),
       ),
     );
   }
