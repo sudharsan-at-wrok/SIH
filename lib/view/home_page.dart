@@ -23,6 +23,10 @@ class HomePage extends StatelessWidget {
                       borderRadius: BorderRadius.only(
                         bottomLeft: Radius.circular(50),
                       )),
+
+
+
+                      
                   child: Padding(
                     padding:
                         const EdgeInsets.only(top: 50, left: 20, right: 10),
